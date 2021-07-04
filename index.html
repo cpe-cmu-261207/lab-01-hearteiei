@@ -5,26 +5,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Heart Resume Website</title>
+  <title>Heart Resume </title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style/satai.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="./picture/contact.png">
 </head>
 
 <body class="bg-yellow-100">
   <!-- navigator bar -->
   <div class="bg-gray-700 border-600-b-2">
-    <div class="bg-gray-700 flex justify-end py-4 max-w-screen-md mx-auto">
-      <ul class="flex space-x-5">
-        <li>
-          <a href="index.html">HOME</a>
-        </li>
-        <li>
-          <a href="experience.html">EXPERIENCE</a>
-        </li>
-        <li>
-          <a href="contact.html">CONTACT</a>
-        </li>
-      </ul>
+    <div class="bg-gray-700 flex justify-between py-4 max-w-screen-md mx-auto">
+      <div >
+        <p class="h">My Resume</p>
+      </div>
+      <div>
+        <ul class="flex space-x-5 mt-6">
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+          <li>
+            <a href="experience.html">EXPERIENCE</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
   <!-- introduce -->
@@ -33,37 +48,53 @@
       <p class="h">KUNASIN TECHASUEB</p>
       <div class=" flex space-x-10 max-w-screen-md mx-auto  ">
         <img class="w-1/4 h-1/4" src="./picture/Heart.jpg">
-        <p class="aksorn">Hi! my name is kunasin tecasueb. mynickname is Heart.
-          i study computer engineering at Chiang Mai University
-        </p>
+        <div>
+          <p class="aksorn ">Hi! my name is kunasin tecasueb. my nickname is Heart.
+            i study computer engineering at Chiang Mai University.
+            i'm interested in progaming,coding,
+          </p>
+          <img src="picture/Me.png">
+        </div>
       </div>
     </div>
   </div>
   <!-- skill -->
   <div class="p-10">
     <div class=" max-w-screen-md mx-auto space-y-5">
+       <div class="flex justify-center"> <p class="h">My Skill and Hobbies </p></div>
       <!-- skill1 -->
-      <div class="flex bg-yellow-50 rounded-xl shadow-lg p-10 space-x-5">
-        <img class="w-28" src="./picture/program.png">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus tenetur, aliquid saepe unde praesentium
-          possimus ducimus deserunt. Quaerat blanditiis culpa esse minima alias suscipit! Temporibus, sed facilis.
-          Culpa, sequi architecto.</p>
+      <div class="bg-yellow-50 rounded-xl shadow-lg p-10 space-x-5 space-y-5">
+        <p class="mid h">PROGRAMING</p>
+        <div class="flex space-x-5">
+          <img class="w-1/4" src="./picture/program.png">
+          <p class="f2">I'm interested in coding.<br>
+          I have ever made a game from c++ and SCRATCH and I have ever used gogo board to make and </p>
+        </div>
       </div>
       <!-- skill2 -->
-      <div class="flex bg-yellow-50 rounded-xl shadow-lg p-10 space-x-5">
-        <img class="w-28" src="./picture/program.png">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus tenetur, aliquid saepe unde praesentium
-          possimus ducimus deserunt. Quaerat blanditiis culpa esse minima alias suscipit! Temporibus, sed facilis.
-          Culpa, sequi architecto.</p>
+      <div class="bg-yellow-50 rounded-xl shadow-lg p-10 space-x-5 space-y-5">
+        <p class="mid h">Running</p>
+        <div class="flex space-x-5">
+          <img class="w-1/4" src="./picture/running.jpg">
+          <p class="f2">I love running. running is my life. I usually run 3-10KM per a day.
+            <br>I have ever run a Funrun,Mini-half marathon,Half-marathon.
+  
+          </p>
+        </div>
       </div>
       <!-- skill3 -->
-      <div class="flex bg-yellow-50 rounded-xl shadow-lg p-10 space-x-5">
-        <img class="w-28" src="./picture/program.png">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus tenetur, aliquid saepe unde praesentium
-          possimus ducimus deserunt. Quaerat blanditiis culpa esse minima alias suscipit! Temporibus, sed facilis.
-          Culpa, sequi architecto.</p>
+      <div class="bg-yellow-50 rounded-xl shadow-lg p-10 space-x-5 space-y-5">
+        <p class="mid h">Basketball</p>
+        <div class="flex space-x-5">
+          <img class="w-1/4" src="./picture/bas.jpg">
+          <p class="f2">Basketball is the sport that i love to play the most.
+            <br>
+            I’ve been playing basketball since I was very young .
+            <br>I like to play with my friend it help me to have teamwork. 
+          </p>
+        </div>
       </div>
     </div>
   </div>
-
+  <p class="text-center text-yellow-800 mt-5">Copyright © 2021 Heart Resume by Kunasin Techasueb</p>
 </html>
